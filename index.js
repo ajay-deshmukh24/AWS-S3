@@ -40,7 +40,7 @@ async function putObjURL(filename, contentType) {
 async function init() {
   console.log(
     "URL for image.jpg",
-    await putObjURL(`image-${Date.now()}.jpg`, "iamge/jpg")
+    await putObjURL(`image-${Date.now()}.jpg`, "image/jpg")
   );
 }
 
